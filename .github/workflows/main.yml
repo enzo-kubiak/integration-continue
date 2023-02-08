@@ -12,5 +12,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: rectilineal-makes
-        password: ${{ secrets.FTPPASSWORD }}
+        password: ${{ secrets.FTPPassword }}
         server-dir : public_html/
