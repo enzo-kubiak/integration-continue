@@ -12,5 +12,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: rectilineal-makes
-        password: azertyuiop
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir : public_html/
